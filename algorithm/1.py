@@ -1,13 +1,12 @@
 def sellablePairs(ar):
     pairs = 0
-    start = 0
-    for i in range(start, len(ar)):
-        for j in range(start+1, len(ar)):
-            if(ar[i] == ar[j]):
+    for color in ar:
+        ar.pop(0)
+        for j in range(0, len(ar)):
+            if(color == ar[j]):
                 pairs += 1
-                start += 1
+                ar.pop(j)
                 break
-        start += 1
     return pairs
 
 pairs = 0
