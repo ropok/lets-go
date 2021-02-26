@@ -9,9 +9,6 @@
       1. get a color
       2. pop color from ar
       3. compare to another
-      4. if same color: countSame++, pop
+      4. if same color: pairs++, pop
       5. back to 3, til the end of color
-      6. `if countSame > 1`: goto g, `else`:  `pairs = 0`
-      7. `if countSame % 2 = 0`: `pairs = countSame/2`, `else`: `pairs = (countSame-1)/2`
-      8. finalPairs += pairs
-      9. back to a
+      6. back to a, else return pairs
