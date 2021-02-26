@@ -12,3 +12,20 @@
       4. if same color: pairs++, pop
       5. back to 3, til the end of color
       6. back to a, else return pairs
+
+2. Bill the avid hiker.
+   1. declare int n, string[] s
+   2. input n
+   3. `if n >= 2`: goto iv, `else`: error
+   4. input s
+   5. `if len(s) == n`: goto vi, `else`: error
+   6. countingValleys()
+      1. declare int sea_level = 0, int valley = 0, int temp, float temp_valley
+      2. for step in s:
+         1. temp = sea_level
+         2. `if step = U`: sea_level++, `if step = D`: sea_level--
+         3. `if temp = 0 and sea_level = -1`: temp_valley += 0.5
+         4. `if temp = -1 and sea_level = 0`: temp_valley += 0.5
+         5. goto 1
+      3. valley = floor(temp_valley)
+      4. return valley
