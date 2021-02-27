@@ -39,10 +39,14 @@
       1. print(output)
 
 4. Andrew's lamp trip
-   1. declare int lamp = 0, int switches = 100
-   2. lamp = lamp + switches (first trip)
-   3. for trip in range (2, switches):
+   1. declare int lamp[100] = 0
+   2. switch(lamp)
+      1. if lamp == 0: return 1
+      2. else return 0
+   3. first trip: for i in range(0,100): lamp[i] = switch(lamp[i]) 
+   4. for trip in range (2, switches):
       1. while trip**n < 100:
-         1. lamp += 1
-         2. n += 1
-   4. print lamp
+         1. switches = trip**n
+         2. `lamp[switches]` = switch(`lamp[switches`)
+         3. n += 1
+   5. print sum(lamp)
