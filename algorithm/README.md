@@ -2,22 +2,22 @@
 
 ## 1. Nick's clothing store.
    1. input number of socks (n)
-   2. `if n >= 1 and n <= 100`: goto iii, `else` back to i
+   2. `if n >= 1 and n <= 100`: goto 3, `else` back to 1
    3. input sock's color available (ar)
-   4. `if len(ar) >= 0 and len(ar) <= n`: goto v, `else` back to iii
+   4. `if len(ar) >= 0 and len(ar) <= n`: goto 5, `else` back to 3
    5. sellablePairs(ar)
       1. get a color
       2. pop color from ar
       3. compare to another
       4. if same color: pairs++, pop
-      5. back to 3, til the end of color
-      6. back to a, else return pairs
+      5. back to iii, til the end of color
+      6. back to i, else return pairs
 
 ## 2. Bill the avid hiker.
    1. input n
-   2. `if n >= 2`: goto iii, `else`: error
+   2. `if n >= 2`: goto 3, `else`: error
    3. input s
-   4. `if len(s) == n`: goto v, `else`: error
+   4. `if len(s) == n`: goto 5, `else`: error
    5. countingValleys()
       1. for step in s:
          1. temp = sea_level
