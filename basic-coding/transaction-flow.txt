@@ -1,0 +1,23 @@
+title Transaction Flow
+
+User->Platform: register
+Platform->User: register OK
+Platform->User: request address
+User->Platform: input address
+User->Platform: choose product
+Platform->User: request payment
+User->Platform: pay bill
+User->Platform: skip delivery
+User->Platform: cancel order
+Platform->User: order canceled
+
+
+Supplier->Platform: register as a seller
+Platform->Supplier: register OK
+Supplier->Platform: create store
+Platform->Supplier: request address
+Supplier->Platform: input address
+Supplier->Platform: create product
+Supplier->Platform: set price
+Supplier->Platform: set selling area
+Platform->Supplier: product confirmed
