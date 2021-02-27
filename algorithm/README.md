@@ -1,6 +1,6 @@
 # Algorithm
 
-1. Nick's clothing store.
+## 1. Nick's clothing store.
    1. input number of socks (n)
    2. `if n >= 1 and n <= 100`: goto iii, `else` back to i
    3. input sock's color available (ar)
@@ -13,7 +13,7 @@
       5. back to 3, til the end of color
       6. back to a, else return pairs
 
-2. Bill the avid hiker.
+## 2. Bill the avid hiker.
    1. input n
    2. `if n >= 2`: goto iii, `else`: error
    3. input s
@@ -28,7 +28,7 @@
       2. valley = floor(temp_valley)
       3. return valley
 
-3. pseudo GoLang 1.345.679
+## 3. pseudo GoLang 1.345.679
    1. input number
    2. while number !=0 :
       1. num = number % 10
@@ -38,7 +38,7 @@
    3. for output in reversed(output):
       1. print(output)
 
-4. Andrew's lamp trip
+## 4. Andrew's lamp trip
    1. declare int lamp[100] = 0
    2. switch(lamp)
       1. if lamp == 0: return 1
