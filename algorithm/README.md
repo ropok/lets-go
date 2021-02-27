@@ -28,21 +28,21 @@
       2. valley = floor(temp_valley)
       3. return valley
 
-   3. pseudo GoLang 1.345.679
-      1. input number
-      2. while number !=0 :
-         1. num = number % 10
-         2. outputs.append(num*zeros)
-         3. number = number // 10
-         4. zeros = zeros*10
-      3. for output in reversed(output):
-         1. print(output)
+3. pseudo GoLang 1.345.679
+   1. input number
+   2. while number !=0 :
+      1. num = number % 10
+      2. outputs.append(num*zeros)
+      3. number = number // 10
+      4. zeros = zeros*10
+   3. for output in reversed(output):
+      1. print(output)
 
-   4. Andrew's lamp trip
-      1. declare int lamp = 0, int switches = 100
-      2. lamp = lamp + switches (first trip)
-      3. for trip in range (2, switches):
-         1. while trip**n < 100:
-            1. lamp += 1
-            2. n += 1
-      4. print lamp
+4. Andrew's lamp trip
+   1. declare int lamp = 0, int switches = 100
+   2. lamp = lamp + switches (first trip)
+   3. for trip in range (2, switches):
+      1. while trip**n < 100:
+         1. lamp += 1
+         2. n += 1
+   4. print lamp
