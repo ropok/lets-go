@@ -27,3 +27,13 @@
          5. repeat
       2. valley = floor(temp_valley)
       3. return valley
+
+   3. pseudo GoLang 1.345.679
+      1. input number
+      2. while number !=0 :
+         1. num = number % 10
+         2. outputs.append(num*zeros)
+         3. number = number // 10
+         4. zeros = zeros*10
+      3. for output in reversed(output):
+         1. print(output)
