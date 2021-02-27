@@ -37,3 +37,12 @@
          4. zeros = zeros*10
       3. for output in reversed(output):
          1. print(output)
+
+   4. Andrew's lamp trip
+      1. declare int lamp = 0, int switches = 100
+      2. lamp = lamp + switches (first trip)
+      3. for trip in range (2, switches):
+         1. while trip**n < 100:
+            1. lamp += 1
+            2. n += 1
+      4. print lamp
