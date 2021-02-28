@@ -16,4 +16,4 @@ Confirm succesful message with toast component, for easy, fast and eye-catchy ex
 
 ## Transaction flow
 
-![alt text](TransactionFlow.png "Transaction Flow diagram")
+![alt text](Transaction_Flow_DFD.png "Transaction Flow diagram")
