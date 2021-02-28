@@ -75,7 +75,7 @@ Confirm succesful message with toast component, for easy, fast and eye-catchy ex
 
 ## Transaction flow
 <p align="center">
-    <img src="basic-coding/TransactionFlow.png" alt="Transaction Flow" style='height: 40%; width: 40%'/>
+    <img src="basic-coding/Transaction_Flow_DFD.png" alt="Transaction Flow DFD"/>
 </p>
 
 <div style="page-break-after: always;"></div>
